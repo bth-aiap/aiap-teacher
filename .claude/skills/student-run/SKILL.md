@@ -11,8 +11,8 @@ In this course students are *required* to use AI to the fullest, and the learnin
 
 ## Hard rules
 
-- Work only in a test fork under `test-forks/` (gitignored, create it if missing). Never edit course material or starter repos (`bth-aiap.github.io/`, `aiap-part*/`) as a side effect: log the problem instead and let the teacher decide.
-- Fork the starter on the teacher's personal GitHub account (`gh repo fork bth-aiap/<starter> --clone=false`, then clone into `test-forks/<starter>`), never push to `bth-aiap/*` starter repos.
+- Work only in a test fork under `student/` (gitignored, create it if missing). Never edit course material or starter repos (`bth-aiap.github.io/`, `aiap-part*/`) as a side effect: log the problem instead and let the teacher decide.
+- Work **locally only**: `git clone ~/git/aiap-teacher/<starter> student/<starter>` and remove its `origin` remote (`git remote remove origin`). Never create GitHub repos or push anywhere; never push to `bth-aiap/*`.
 - Do not open PRs or issues against `bth-aiap/*`. Code review simulation happens inside the test fork only.
 - Do not delete or weaken the starter's `AGENTS.md` / `CLAUDE.md`; let them guide the work, as they will for students. Log if they were unclear or counterproductive.
 - Commit often in the fork. In this repo, commit the question logs. Attribution lines from the session's system reminder apply.
@@ -32,7 +32,7 @@ In this course students are *required* to use AI to the fullest, and the learnin
 2. Create `student-run/<part>-questions.md` (format below) before starting work and update it as you go, not at the end.
 3. Set up the test fork and a branch `<part>`.
 4. Do the work in the order given, using AI as the course requires. Run whatever verification the starter or your own project defines before committing.
-5. Hand-in is via GitHub only: push the branch to the test fork.
+5. Real hand-in is via GitHub, but runs are local only: commit on the branch and log the hand-in step as *simulated*.
 6. Finish with a summary to the teacher: what was done, the top questions, suggested course-material fixes. Then stop. Update `TEACHER_TODO.md` (create if missing) with items derived from the log.
 
 If `gh` is not authenticated, ask the teacher to run `! gh auth login`.
