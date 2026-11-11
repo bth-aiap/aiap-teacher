@@ -12,3 +12,18 @@ Decisions taken without asking, to review with the teacher. Reverse any of them 
 8. **Credits** shown as 4 hp per seminar, +1 hp (del 2) and +2 hp (del 3) for code review, total 15 hp, per your confirmation.
 9. **Student-run test skill** is *not* written yet; the course material has too many gaps to simulate a run. Next step once the questions are answered.
 10. The teacher repo has `git init` and a `.gitignore` for the four sibling repos, no commits.
+
+## Answered by the teacher (Q&A round)
+
+11. Grading is pass/fail (G/U) for seminars and code reviews.
+12. No course literature: website plus linked sources only.
+13. Seminars are oral and in groups.
+14. Code reviews: the teacher assigns reviewers; done on GitHub.
+15. Hand-in is only via GitHub (the student's fork). No Canvas hand-in.
+16. Tools in part 0: Claude Code, Codex, OpenCode (expected to change next year), herdr (https://herdr.dev/, an app for running coding agents), Tailscale (used mainly to show distributing agent execution across machines through herdr). Supported platforms: Linux, macOS, Windows via WSL. Who pays is undecided (school or students).
+17. LLM and harness background in part 0 is technical.
+18. Parts 1-3: a new project each part, chosen by the student. Part 3: student picks a system within defence, naval or aviation.
+19. Starters contain nothing beyond instruction files, README and .gitignore.
+20. Agent instruction files stay in English.
+21. The student-run skill is written (`.claude/skills/student-run/SKILL.md`): test forks in `test-forks/` (gitignored) on the teacher's personal GitHub, logs in `student-run/`. Adapted from the jsux skill; never touches `bth-aiap/*` repos.
+22. Sidebar-less splash front page, with the old front-page content condensed to cards.

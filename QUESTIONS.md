@@ -1,34 +1,29 @@
 # Open questions
 
-Each matches a `TODO` marker in the site or starter repos.
+Answered questions are in `DECISIONS.md`. Each open one matches a `TODO` marker in the site or starter repos.
 
 ## Course
-1. Course code, institution (BTH?), name in Ladok, and the exact run dates per part (1 Sept to mid-January)?
-2. Grading scale (A–F, U/G, or pass/fail?) and criteria for seminars and code reviews. Are seminars graded individually?
-3. Is 15 hp total correct for the Ladok registration, and how are the moments split in Ladok?
-4. Is there a literature list (like Designing Interfaces in jsux)?
+1. Course code, institution (BTH?), Ladok name, exact run dates per part (1 Sept to mid-January). *(Asked, not decided yet.)*
+2. Grading criteria for the seminars and code reviews (the scale is G/U, criteria are open).
+3. How are the 15 hp split in Ladok?
 
 ## Seminars and code review
-5. Seminar format: oral or written, individual or group, length, what must students prepare/hand in?
-6. Code review: how are pairs assigned, how many reviews per student, what is assessed (the review or the reviewed code), what platform (GitHub PRs?)?
-7. Where is student work handed in (GitHub, Canvas)? jsux used a Canvas hand-in workflow; I did not copy it.
+4. Seminars are oral in groups: group size, length, what must groups prepare, and the assessment criteria?
+5. Code review (teacher-assigned, on GitHub): how many reviews per student, what is assessed (the review, the reviewed code, both), and when in each third of the course?
 
 ## Part 0
-8. Which tools exactly, and what is "herdr"? What do students need to pay for or get licences for (Claude Code, codex, ...)? Are API keys or subscriptions provided?
-9. Platforms to support (Linux/macOS/Windows/WSL)? tailscale: for what purpose in the course?
-10. How deep should the LLM and harness background go, and is there a preferred reading list?
+6. Install instructions per tool and platform (Linux, macOS, WSL). Do you want me to draft them (I would need to verify against current docs)?
+7. Who pays for Claude Code / Codex / OpenCode access: school or students? Open for now.
+8. Check the tool links I added on the setup page (Claude Code, Codex, OpenCode, herdr, Tailscale); I wrote URLs from memory except herdr.
+9. Technical depth for LLM and harness background is chosen; do you want to write it yourself or have me draft it for review?
 
-## Parts 1–3
-11. Concrete assignments for each part: what do students build? Single project or several? Same project evolved or new each part?
-12. Part 3: which concrete domain/scenario (defence, naval, aircraft)? Standards to reference (DO-178C, etc.)? Is there any security/clearance concern with the topic or student projects?
-13. Starter repos: should they hold anything besides instruction files (e.g. a requirements template, a verification-log template, a CI skeleton)? Which stack, if any, do you want to prescribe in part 3?
-14. Which AI tools/models are students expected to use per part, and who pays for them?
+## Parts 1-3
+10. Project briefs: students choose projects freely. Should the material give guidance, requirement checklists or example project ideas per part?
+11. Part 3: which standards to reference (DO-178C etc.) and are there limits on what student projects may contain (defence-related topics)?
+12. Concrete study material and tasks per part (veckoplanering): what do students do each week?
 
 ## Ethics and sustainability
-15. Reading material and sources for parts 2 and 3? Is the BTH five-perspectives sustainability framing used as in jsux?
-
-## Infrastructure
-17. Language of agent files: English now, Swedish OK?
+13. Reading and sources for parts 2 and 3, and whether to use BTH's five-perspectives framing. *(Not decided yet.)*
 
 ## Tooling
-18. Should I write the student-run test skill now (needs answers to 11 first)?
+14. Student-run skill: where should test forks live on GitHub (your personal account, an `efostud` account)? The skill defaults to your personal account.
