@@ -31,3 +31,9 @@ Answered questions are in `DECISIONS.md`. Each open one matches a `TODO` marker 
 ## Entrepreneurship
 15. Reading material, examples and any assignments for the entrepreneurial thread? Currently only a framing page with questions per part. Should students produce something concrete (a one-page business case, a launch)? Should the legal/IP side (licences, ownership of generated code) be covered, in part 3 or in the ethics material?
 16. Does the entrepreneurship thread change the credit or learning-outcome text in the course plan?
+
+## Assignments (review needed)
+17. Are the requirements K1..Kn in `uppgifter/del1-3` the right ones, and too many or too few for 4 ECTS (plus 1/2 ECTS for code review)? How are 'launch' (part 1) and 'deployed' (part 2) assessed?
+18. Should students share AGENTS.md as a graded artifact and is it OK that assessment depends on a file the agent also edits (risk: the agent writes it, the student does not read it)? Consider an oral check in the seminar.
+19. Assignment deadlines and how the thirds of the semester map to assignment milestones.
+20. Part 3: which standards to reference and any restrictions on topics (same as Q11 above).
