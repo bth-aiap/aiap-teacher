@@ -12,7 +12,7 @@ The workspace was empty when this file was written. The layout below is the agre
 
 Still to be filled in: see `QUESTIONS.md`. Decisions made without asking are in `DECISIONS.md`; read both first.
 
-A first draft of the website and starters exists (`aiap-site/`, `aiap-del1-hobby/`, `aiap-del2-webapp/`, `aiap-del3-kritisk/`, local git repos, no remotes). Detailed commands are in `aiap-site/CLAUDE.md`; the starters have none by design.
+A first draft of the website and starters exists (`bth-aiap.github.io/`, `aiap-part1-hobby/`, `aiap-part2-webapp/`, `aiap-part3-critical/`, local git repos, no remotes). Detailed commands are in `bth-aiap.github.io/CLAUDE.md`; the starters have none by design.
 
 ## The three parts
 

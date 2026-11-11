@@ -2,7 +2,7 @@
 
 Decisions taken without asking, to review with the teacher. Reverse any of them freely.
 
-1. **Repo names** (local only, no remotes yet): `aiap-site`, `aiap-del1-hobby`, `aiap-del2-webapp`, `aiap-del3-kritisk`. Each is its own git repo (`git init`, nothing committed or pushed).
+1. **Repo names**: org `bth-aiap` (public). Site `bth-aiap.github.io` (user/org Pages site, so no `base`), starters `aiap-part1-hobby`, `aiap-part2-webapp`, `aiap-part3-critical` (English names as requested), teacher repo `aiap-teacher`.
 2. **Site stack**: Astro + Starlight copied from the jsux site (same dependency versions, deploy workflow to GitHub Pages), Swedish only (`lang: sv`). No `astro-embed` and no `astro-hidden-prompt`.
 3. **Site structure**: `index` (overview), `del0/` (index, setup, llm-bakgrund, harness), `del1`–`del3`, `kunskap/` (examination, seminarier, kodgranskning, verifiering, etik_och_hallbarhet). Named `del` rather than jsux's `kmom`, since the course is described in parts.
 4. **Content depth**: pages are framework and framing only. Anything needing facts I don't have (tool install steps, assignment briefs, schedules, rubrics) is a `TODO` marker plus an entry in `QUESTIONS.md`. I did not invent tool details (e.g. herdr).

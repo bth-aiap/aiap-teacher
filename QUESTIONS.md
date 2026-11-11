@@ -28,7 +28,6 @@ Each matches a `TODO` marker in the site or starter repos.
 15. Reading material and sources for parts 2 and 3? Is the BTH five-perspectives sustainability framing used as in jsux?
 
 ## Infrastructure
-16. GitHub org and repo names, and the site URL (`site` in `astro.config.mjs` is a placeholder)? Should starters be GitHub template repos?
 17. Language of agent files: English now, Swedish OK?
 
 ## Tooling
