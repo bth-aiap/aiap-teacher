@@ -12,10 +12,10 @@ Answered questions are in `DECISIONS.md`. Each open one matches a `TODO` marker 
 5. Code review (teacher-assigned, on GitHub): how many reviews per student, what is assessed (the review, the reviewed code, both), and when in each third of the course?
 
 ## Part 0
-6. Install instructions per tool and platform (Linux, macOS, WSL). Do you want me to draft them (I would need to verify against current docs)?
+6. Install commands for Claude Code, Codex, OpenCode, herdr and Tailscale are drafted from the projects' own docs (Nov 2026) but **not run by me**. Please try them on Linux, macOS and WSL. Tailscale under WSL and the tool sign-in/licence steps are only pointed to, not written.
 7. Who pays for Claude Code / Codex / OpenCode access: school or students? Open for now.
-8. Check the tool links I added on the setup page (Claude Code, Codex, OpenCode, herdr, Tailscale); I wrote URLs from memory except herdr.
-9. Technical depth for LLM and harness background is chosen; do you want to write it yourself or have me draft it for review?
+8. Part 0 pages contain technical claims about transformers, training and harnesses written from my own knowledge, and per-harness details (permissions, which instruction files each reads) are not checked against current docs. Please review before release.
+9. Part 0 articles (setup, LLM background, harness) are first drafts with reflection questions but no seminar tie-in or exercises. Do you want exercises (e.g. tokenizer exploration, comparing the three agents on one task)?
 
 ## Parts 1-3
 10. Project briefs: students choose projects freely. Should the material give guidance, requirement checklists or example project ideas per part?
