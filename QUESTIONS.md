@@ -27,3 +27,7 @@ Answered questions are in `DECISIONS.md`. Each open one matches a `TODO` marker 
 
 ## Tooling
 14. Student-run skill: where should test forks live on GitHub (your personal account, an `efostud` account)? The skill defaults to your personal account.
+
+## Entrepreneurship
+15. Reading material, examples and any assignments for the entrepreneurial thread? Currently only a framing page with questions per part. Should students produce something concrete (a one-page business case, a launch)? Should the legal/IP side (licences, ownership of generated code) be covered, in part 3 or in the ethics material?
+16. Does the entrepreneurship thread change the credit or learning-outcome text in the course plan?

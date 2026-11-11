@@ -27,3 +27,4 @@ Decisions taken without asking, to review with the teacher. Reverse any of them 
 20. Agent instruction files stay in English.
 21. The student-run skill is written (`.claude/skills/student-run/SKILL.md`): test forks in `test-forks/` (gitignored) on the teacher's personal GitHub, logs in `student-run/`. Adapted from the jsux skill; never touches `bth-aiap/*` repos.
 22. Sidebar-less splash front page, with the old front-page content condensed to cards.
+23. Entrepreneurship is a thread through parts 1-3 (no new part or credits), examined inside the seminars. Meaning: building/launching a product and business case/economics (not intrapreneurship or legal/IP, which you did not select). Page `kunskap/entreprenorskap`, linked from parts 1-3, seminarier, front page. Per-part angles are my draft.

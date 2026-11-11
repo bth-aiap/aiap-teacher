@@ -23,6 +23,8 @@ The parts are an escalation in **how much is at stake**, and so in the security 
 2. **"Ordinary" web applications**: e.g. a webshop company site or a non-critical internal application. Same security and verification discussion, with a bigger focus on **maintainability**. Includes **ethical and sustainability implications**.
 3. **Mission-critical software**: software critical to society, preferably in the domain of defence, naval craft or aircraft. Highest demands on verification and validation. Includes **ethical and sustainability implications**.
 
+**Entrepreneurship** is a thread through parts 1–3, not a separate part and with no extra credits; it is examined as part of the seminars. Focus: building and launching a product, and business case and economics. Angle per part: 1 idea to launch, 2 business model and economics (build vs buy, total cost of ownership), 3 the cost of reliability.
+
 The code-review assignments (parts 2 and 3) are scheduled inside the third of the semester where they fit, not as a separate block at the end.
 
 ## Course philosophy
